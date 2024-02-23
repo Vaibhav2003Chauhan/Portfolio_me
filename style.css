@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(9, 9, 9);
+    padding:18px 10px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.name_container{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: whitesmoke;
+
+}.name_container:hover{
+    color:blueviolet
+
+}
+
+.nav_custom {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+li {
+    margin: 0 15px;
+    text-transform: uppercase;
+    /* Adjust the value as needed */
+}
