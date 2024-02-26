@@ -69,7 +69,7 @@ li {
 
 i {
     font-weight: 600;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     display: none;
 }
 
@@ -98,13 +98,14 @@ i {
     padding: 20px 10px;
 
 }
-hr{
+
+hr {
     background: black;
 }
 
 .dropdown>ul li {
-    
-    margin-top:1.5rem ;
+
+    margin-top: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -139,6 +140,21 @@ hr{
     background-color: rgb(255, 255, 255);
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 10px;
+    padding: 50px 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.leftcontainer i {
+    display: block;
+    color: rgb(247, 10, 10);
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-bottom: 8px;
+}
+
+.leftcontainer i:hover {
+    color: rgb(145, 145, 239);
 }
